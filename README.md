@@ -44,6 +44,8 @@ The Markers:
 The changes to the prop data passed into the Map component  are watched and prop changes calls a function that makes the markers invisible before emptying the markers array. Then, the updated array of objects passed through the props are used to create new markers and store them in the markers array. This means the markers on the map change according to user filter inputs.
 Below the map is also a table to show all the objects of the props and shows installer, postcode, radius and chargers dynamically. 
 
+Also, click markers on the map to display information about the installer, radius, chargers and postcode.
+
 {Please note not all objects that are visible on the table are visible on map markers as some of the postcodes are invalid (please check catch section of the addMarker to see how the error is handled)}.
 
 Testing:
