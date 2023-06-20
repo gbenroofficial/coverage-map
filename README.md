@@ -42,7 +42,9 @@ It resides as a child component that receives data that has been filtered accord
 
 The Markers:
 The changes to the prop data passed into the Map component  are watched and prop changes calls a function that makes the markers invisible before emptying the markers array. Then, the updated array of objects passed through the props are used to create new markers and store them in the markers array. This means the markers on the map change according to user filter inputs.
-Below the map is also a table to show all the objects of the props and shows installer, postcode, radius and chargers dynamically. Please note not all objects that are visible on the table are visible on map markers as some of the postcodes are invalid (please check catch section of the addMarker to see how the error is handled).
+Below the map is also a table to show all the objects of the props and shows installer, postcode, radius and chargers dynamically. 
+
+{Please note not all objects that are visible on the table are visible on map markers as some of the postcodes are invalid (please check catch section of the addMarker to see how the error is handled)}.
 
 Testing:
 Unit testing was done using Jest and vue/testing-utils to highlight all major behaviors and functions in the CoverOverview and Map components. Please check the tests folder for the tests.
