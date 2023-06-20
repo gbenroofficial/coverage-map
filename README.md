@@ -14,6 +14,7 @@ npm i @googlemaps/js-api-loader [install google maps javascript loader]
 npm run start or npm start
 ```
 Right Charge Project Description
+
 **INSTALLATIONS**:
 Install tailwind i.e. npm install -D tailwindcss [check: https://tailwindcss.com/docs/installation]
 Install vue-cli i.e. npm install @vue/cli
