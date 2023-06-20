@@ -23,6 +23,7 @@ Install vue-test-utils i.e.  npm install --save-dev @vue/test-utils@legacy
 Install the Google maps javascript api loader i.e. npm i @googlemaps/js-api-loader 
 
 **PROJECT DESCRIPTION**
+
 Start the application by running “ npm start ” or “npm run start” (as script has been edited to include a watch option and the outputting of tailwind to vanilla css file).
 The application features 2 pages as initially provided: Home and Coverage Overview.
 The **CoverView page** is the focus of the project:
