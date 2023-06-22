@@ -162,6 +162,7 @@ export default {
   },
   mounted() {
     this.populateInstallerOptions();
+    
   },
   methods: {
     populateInstallerOptions() {

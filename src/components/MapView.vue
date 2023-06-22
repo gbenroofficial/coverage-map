@@ -85,7 +85,7 @@ export default {
   methods: {
     initLoader() {
       loader = new Loader({
-        apiKey: "AIzaSyDsTleItEyHkp4aRmOZsQgoqoisYIKfqAY",
+        apiKey: process.env.VUE_APP_GOOGLE_API_KEY,
         libraries: ["drawing", "geometry", "places", "visualization"],
       });
     },
